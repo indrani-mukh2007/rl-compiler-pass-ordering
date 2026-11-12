@@ -1,0 +1,186 @@
+{
+  "llvm15_train": [
+    {
+      "iter": 1,
+      "geomean_ratio": 1.1548
+    },
+    {
+      "iter": 2,
+      "geomean_ratio": 1.1611
+    },
+    {
+      "iter": 3,
+      "geomean_ratio": 1.1561
+    },
+    {
+      "iter": 4,
+      "geomean_ratio": 1.1411
+    },
+    {
+      "iter": 5,
+      "geomean_ratio": 1.1576
+    },
+    {
+      "iter": 6,
+      "geomean_ratio": 1.1332
+    },
+    {
+      "iter": 7,
+      "geomean_ratio": 1.1329
+    },
+    {
+      "iter": 8,
+      "geomean_ratio": 1.153
+    },
+    {
+      "iter": 9,
+      "geomean_ratio": 1.1288
+    },
+    {
+      "iter": 10,
+      "geomean_ratio": 1.1194
+    },
+    {
+      "iter": 11,
+      "geomean_ratio": 1.0969
+    },
+    {
+      "iter": 12,
+      "geomean_ratio": 1.1131
+    },
+    {
+      "iter": 13,
+      "geomean_ratio": 1.1016
+    },
+    {
+      "iter": 14,
+      "geomean_ratio": 1.0902
+    },
+    {
+      "iter": 15,
+      "geomean_ratio": 1.0828
+    },
+    {
+      "iter": 16,
+      "geomean_ratio": 1.0721
+    },
+    {
+      "iter": 17,
+      "geomean_ratio": 1.0703
+    },
+    {
+      "iter": 18,
+      "geomean_ratio": 1.0568
+    },
+    {
+      "iter": 19,
+      "geomean_ratio": 1.0578
+    },
+    {
+      "iter": 20,
+      "geomean_ratio": 1.0274
+    },
+    {
+      "iter": 21,
+      "geomean_ratio": 1.0073
+    },
+    {
+      "iter": 22,
+      "geomean_ratio": 1.0187
+    },
+    {
+      "iter": 23,
+      "geomean_ratio": 1.0212
+    },
+    {
+      "iter": 24,
+      "geomean_ratio": 1.0134
+    },
+    {
+      "iter": 25,
+      "geomean_ratio": 1.0261
+    },
+    {
+      "iter": 26,
+      "geomean_ratio": 1.0361
+    },
+    {
+      "iter": 27,
+      "geomean_ratio": 1.0214
+    },
+    {
+      "iter": 28,
+      "geomean_ratio": 1.0137
+    },
+    {
+      "iter": 29,
+      "geomean_ratio": 1.0141
+    },
+    {
+      "iter": 30,
+      "geomean_ratio": 1.0055
+    },
+    {
+      "iter": 31,
+      "geomean_ratio": 1.024
+    },
+    {
+      "iter": 32,
+      "geomean_ratio": 1.0363
+    },
+    {
+      "iter": 33,
+      "geomean_ratio": 1.0111
+    },
+    {
+      "iter": 34,
+      "geomean_ratio": 1.0011
+    },
+    {
+      "iter": 35,
+      "geomean_ratio": 1.001
+    }
+  ],
+  "llvm17_finetune": [
+    {
+      "iter": 1,
+      "geomean_ratio": 1.0156
+    },
+    {
+      "iter": 2,
+      "geomean_ratio": 1.0095
+    },
+    {
+      "iter": 3,
+      "geomean_ratio": 1.0208
+    },
+    {
+      "iter": 4,
+      "geomean_ratio": 1.0154
+    },
+    {
+      "iter": 5,
+      "geomean_ratio": 1.0115
+    },
+    {
+      "iter": 6,
+      "geomean_ratio": 1.0147
+    },
+    {
+      "iter": 7,
+      "geomean_ratio": 1.0156
+    },
+    {
+      "iter": 8,
+      "geomean_ratio": 1.0167
+    },
+    {
+      "iter": 9,
+      "geomean_ratio": 1.0075
+    },
+    {
+      "iter": 10,
+      "geomean_ratio": 0.9988
+    }
+  ]
+}

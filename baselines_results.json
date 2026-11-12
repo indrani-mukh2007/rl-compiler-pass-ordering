@@ -1,0 +1,38 @@
+{
+  "compilation_budget_per_function": {
+    "-Oz": 1,
+    "PPO_Agent_Test": 1,
+    "Genetic_Algorithm": 500,
+    "Random_Search": 500
+  },
+  "llvm15_5seed_geomean": {
+    "-Oz": 1.0,
+    "GA_500": 0.998,
+    "Random_500": 1.001,
+    "GA_500_seeds": [
+      0.9981,
+      0.9978,
+      0.9983,
+      0.9979,
+      0.998
+    ],
+    "Random_500_seeds": [
+      1.0012,
+      1.0008,
+      1.0011,
+      1.0009,
+      1.001
+    ]
+  },
+  "llvm17_5seed_geomean": {
+    "-Oz": 1.0,
+    "GA_500_rerun": 0.997,
+    "GA_500_seeds": [
+      0.9971,
+      0.9968,
+      0.9972,
+      0.9969,
+      0.997
+    ]
+  }
+}

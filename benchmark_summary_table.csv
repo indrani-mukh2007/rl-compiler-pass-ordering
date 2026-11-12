@@ -1,0 +1,8 @@
+Category,Method_or_Condition,LLVM_Version,Compilations_Per_Func,Geomean_Ratio_vs_Oz
+Baseline,-Oz (Reference),LLVM 15,1,1.000
+RL Policy,PPO Agent (1-shot),LLVM 15,1,0.992
+Search Baseline,Genetic Algorithm (GA),LLVM 15,500,0.998
+Search Baseline,Random Search,LLVM 15,500,1.001
+Version Drift,"Policy trained on LLVM 15, no adaptation",LLVM 17,1,0.998
+Version Drift,Policy fine-tuned on LLVM 17,LLVM 17,1,0.993
+Version Drift,GA re-run on LLVM 17,LLVM 17,500,0.997

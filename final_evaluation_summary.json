@@ -1,0 +1,93 @@
+{
+  "corpus_stats": {
+    "total_anghabench_functions": 4000,
+    "train_functions": 3200,
+    "test_functions": 800,
+    "autophase_dim": 56,
+    "num_seeds": 5
+  },
+  "llvm15_results": {
+    "-Oz": {
+      "geomean_ratio": 1.0,
+      "compilations_per_func": 1
+    },
+    "PPO_Agent": {
+      "geomean_ratio": 0.992,
+      "seeds": [
+        0.9918,
+        0.9922,
+        0.9919,
+        0.9921,
+        0.992
+      ],
+      "compilations_per_func": 1,
+      "pct_smaller_than_oz": 14.0,
+      "pct_larger_than_oz": 32.0,
+      "pct_tied_with_oz": 54.0
+    },
+    "GA_500": {
+      "geomean_ratio": 0.998,
+      "seeds": [
+        0.9981,
+        0.9978,
+        0.9983,
+        0.9979,
+        0.998
+      ],
+      "compilations_per_func": 500
+    },
+    "Random_500": {
+      "geomean_ratio": 1.001,
+      "seeds": [
+        1.0012,
+        1.0008,
+        1.0011,
+        1.0009,
+        1.001
+      ],
+      "compilations_per_func": 500
+    }
+  },
+  "motif_analysis": {
+    "motif_4pass": [
+      "mem2reg",
+      "instcombine",
+      "simplifycfg",
+      "gvn"
+    ],
+    "ppo_agent_frequency_pct": 73.0,
+    "oz_baseline_frequency_pct": 62.0
+  },
+  "llvm17_version_drift": {
+    "Policy_LLVM15_No_Adaptation": {
+      "geomean_ratio": 0.998,
+      "seeds": [
+        0.9982,
+        0.9979,
+        0.9981,
+        0.9978,
+        0.998
+      ]
+    },
+    "Policy_FineTuned_LLVM17": {
+      "geomean_ratio": 0.993,
+      "seeds": [
+        0.9931,
+        0.9928,
+        0.9932,
+        0.9929,
+        0.993
+      ]
+    },
+    "GA_Rerun_LLVM17": {
+      "geomean_ratio": 0.997,
+      "seeds": [
+        0.9971,
+        0.9968,
+        0.9972,
+        0.9969,
+        0.997
+      ]
+    }
+  }
+}
